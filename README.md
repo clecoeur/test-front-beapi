@@ -1,3 +1,11 @@
-# Vite Tailwind SCSS boilerplate
+# Test Build BeApi
 
-Ready-to-use boilerplate for creating landing pages built on top of Vite, Tailwind, SCSS, and Alpine.
+## Stack
+- Html
+- Scss / Tailwind
+- ViteJS / AlpineJS
+- SwiperJS
+
+## Build
+- npm install
+- npm run dev
