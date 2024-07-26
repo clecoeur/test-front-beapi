@@ -1,0 +1,12 @@
+/* Generic classes for headings */
+.big-title {
+  @apply font-bold text-4xl lg:text-5xl leading-tight;
+}
+
+.large-title {
+  @apply font-bold text-3xl lg:text-4xl leading-tight;
+}
+
+.small-title {
+  @apply font-bold text-xl leading-tight;
+}

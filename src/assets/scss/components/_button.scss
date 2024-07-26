@@ -1,0 +1,23 @@
+.btn {
+  @apply py-3 px-6 rounded-md font-semibold transition-colors ease-in duration-150;
+}
+
+.btn-ghost {
+  @apply border border-gray-default hover:bg-gray-default;
+}
+
+.btn-primary {
+  @apply bg-primary-default text-white hover:bg-primary-dark;
+}
+
+.--icon {
+  @apply flex items-center gap-1.5;
+}
+
+.--link {
+  @apply bg-transparent underline underline-offset-4 hover:bg-transparent p-0;
+}
+
+.btn-primary.--link {
+  @apply text-primary-default;
+}

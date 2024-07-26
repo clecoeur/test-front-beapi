@@ -1,0 +1,17 @@
+.card-ghost {
+  @apply flex flex-col items-center text-center md:items-start md:text-left gap-8;
+}
+.card-icon {
+  @apply rounded-xl w-full h-full flex items-center justify-center text-white relative z-10;
+}
+
+.bg-ellipse {
+  @screen lg {
+    clip-path: ellipse(85% 100% at 50% 0%);
+  }
+}
+.bg-ellipse-top {
+  @screen lg {
+    clip-path: ellipse(85% 100% at 50% 100%);
+  }
+}

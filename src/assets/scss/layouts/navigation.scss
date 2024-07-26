@@ -1,0 +1,10 @@
+.item-menu {
+  a {
+    @apply inline bg-gradient-to-b from-current to-current bg-no-repeat bg-clip-padding bg-item-menu bg-underline-hidden hover:bg-underline-extended transition-all ease-in-out duration-500;
+  }
+}
+
+/* Animation classes */
+.drawer {
+  @apply pt-24 px-8 flex flex-col gap-10 lg:flex-row lg:justify-end lg:items-center lg:gap-8 transition-transform duration-300 ease-in-out lg:py-0 lg:px-0;
+}

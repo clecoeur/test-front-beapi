@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+@import "base/fonts";
+@import "base/utils";
+
+/* Layouts */
+@import "layouts/navigation";
+
+/* Components */
+@import "components/button";
+@import "components/card";
+
+/* Vendors */
+@import "vendor/swiper";
+
+body {
+  @apply font-sans text-black;
+}
